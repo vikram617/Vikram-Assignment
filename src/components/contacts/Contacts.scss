@@ -1,0 +1,7 @@
+@import '../../_styles/variables';
+
+.contacts{
+  background: $listBackgroundGray;
+  padding: $topPadding 0 1em;
+  overflow: auto;
+}

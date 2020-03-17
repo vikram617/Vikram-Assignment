@@ -1,0 +1,12 @@
+@import '../../../../_styles/variables';
+@import '../../../../_styles/mixins';
+
+.removeButton {
+  @include colorize($red);
+  @include transition(color);
+
+  // fill center white by using radial gradient
+  background: -moz-radial-gradient(center, ellipse cover, $white 49%, transparent 50%);
+  background: -webkit-radial-gradient(center, ellipse cover, $white 49%, transparent 50%);
+  background: radial-gradient(ellipse at center, $white 49%, transparent 50%);
+}

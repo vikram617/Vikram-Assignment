@@ -1,0 +1,17 @@
+@import '../../../_styles/variables';
+@import '../../../_styles/mixins';
+
+.border {
+  @include border-radius(3px);
+  border: 1px solid $contactBorderGray;
+  padding: 4px;
+  resize: vertical;
+}
+
+.hide {
+  display: none;
+}
+
+.prewrap {
+  white-space: pre-wrap;
+}

@@ -1,0 +1,15 @@
+@import '../../../../_styles/variables';
+@import '../../../../_styles/mixins';
+
+.borderedButton {
+  @include border-radius(5px);
+  @include colorize-background($white);
+  @include transition(background-color);
+
+  border: 1px solid $contactFontGray;
+  padding: 5px 20px;
+
+  &:hover {
+    @include box-shadow;
+  }
+}

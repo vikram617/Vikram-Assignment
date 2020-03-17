@@ -1,0 +1,10 @@
+.grid {
+  display: grid;
+  grid-template-columns: minmax(200px, 20%) minmax(400px, 80%);
+  overflow: auto;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}

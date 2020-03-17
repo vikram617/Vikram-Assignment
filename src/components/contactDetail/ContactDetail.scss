@@ -1,0 +1,40 @@
+@import '../../_styles/variables';
+
+.detail {
+  padding: $topPadding $sides-paddinng $bottom-padding;
+
+  position: relative;
+
+  >.addButton {
+    position: absolute;
+    bottom: $bottom-padding;
+    left: $sides-paddinng;
+  }
+
+  >.editButton {
+    position: absolute;
+    bottom: $bottom-padding;
+    right: $sides-paddinng;
+  }
+
+  >table {
+    width: 100%;
+    border-collapse: collapse;
+    
+    >tbody {
+      >tr {
+        &:not(:last-child) {
+          border-bottom: 1px solid $contactSeparatorGray;
+        }
+
+        >td:first-child {
+          text-align: right;
+          color: $contactFontGray;
+          padding: 10px 15px;
+          vertical-align: top;
+          width: 25%;
+        }
+      }
+    }
+  }
+}

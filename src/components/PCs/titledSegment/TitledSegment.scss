@@ -1,0 +1,10 @@
+@import '../../../_styles/variables';
+
+.segment{
+  >h3 {
+    color: $listCathegoryGray;
+    border-bottom: 1px solid $listSeparatorGray;
+    margin: 10px 0 0 1em;
+    font-weight: normal;
+  }
+}

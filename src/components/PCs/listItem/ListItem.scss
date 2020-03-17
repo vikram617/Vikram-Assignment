@@ -1,0 +1,20 @@
+@import '../../../_styles/variables';
+@import '../../../_styles/mixins';
+
+.listItem {
+  @include transition(background);
+
+  padding: 5px 0 5px 3em;
+  cursor: pointer;
+  font-size: 21px;
+
+  display: flex;
+  >:first-child {
+    flex: 1 1;
+  }
+
+  &.selected {
+    background: $blue;
+    color: $white;
+  }
+}

@@ -1,0 +1,37 @@
+@import '../../../_styles/variables';
+@import '../../../_styles/mixins';
+
+.withLabel {
+  font-size: 2.8em;
+  display: inline-block;
+  margin-right: 8px;
+
+  &:last-child {
+    margin-bottom: 2em;
+  }
+
+
+  >input {
+    width: 220px;
+    
+  }
+
+  >.label {
+    @include transition(color);
+    margin-top: 5px;
+    font-size: 16px;  
+    
+    &.visible {
+      color: $contactFontGray;
+    }
+
+    &.invalid {
+      color: $red; 
+    }
+    
+    &.hidden {
+      @include not-selectable();
+      color: transparent;
+    }
+  }
+}

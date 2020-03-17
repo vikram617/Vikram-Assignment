@@ -1,0 +1,154 @@
+.TitledSegment__segment__3WcZt > h3 {
+  color: #737373;
+  border-bottom: 1px solid #c7c7c7;
+  margin: 10px 0 0 1em;
+  font-weight: normal; }
+
+.List__list__Dkc5L {
+  margin: 0;
+  list-style: none;
+  padding: 0;
+  font-weight: bold; }
+
+.ListItem__listItem__3FC__ {
+  -webkit-transition: background 0.3s ease;
+  -ms-transition: background 0.3s ease;
+  transition: background 0.3s ease;
+  padding: 5px 0 5px 3em;
+  cursor: pointer;
+  font-size: 21px;
+  display: flex; }
+  .ListItem__listItem__3FC__ > :first-child {
+    flex: 1 1; }
+  .ListItem__listItem__3FC__.ListItem__selected__2qUfd {
+    background: #0463e1;
+    color: #fff; }
+
+.Button__button__haWbb {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  border-radius: 0;
+  cursor: pointer;
+  background: transparent;
+  outline: none;
+  user-select: none;
+  -moz-appearance: none;
+  text-decoration: none;
+  -webkit-appearance: none;
+  -webkit-tap-highlight-color: transparent; }
+
+.RemoveButton__removeButton__M-LiT {
+  color: #ff3a30;
+  -webkit-transition: color 0.3s ease;
+  -ms-transition: color 0.3s ease;
+  transition: color 0.3s ease;
+  background: -moz-radial-gradient(center, ellipse cover, #fff 49%, transparent 50%);
+  background: -webkit-radial-gradient(center, ellipse cover, #fff 49%, transparent 50%);
+  background: radial-gradient(ellipse at center, #fff 49%, transparent 50%); }
+  .RemoveButton__removeButton__M-LiT:hover {
+    color: #fc0c00; }
+
+.ContactsCathegory__remove__2ks68 {
+  margin: auto 5px; }
+
+.Contacts__contacts__1pkE2 {
+  background: #e1e2e4;
+  padding: 50px 0 1em;
+  overflow: auto; }
+
+.WithLabel__withLabel__JLIil {
+  font-size: 2.8em;
+  display: inline-block;
+  margin-right: 8px; }
+  .WithLabel__withLabel__JLIil:last-child {
+    margin-bottom: 2em; }
+  .WithLabel__withLabel__JLIil > input {
+    width: 220px; }
+  .WithLabel__withLabel__JLIil > .WithLabel__label__OlFnO {
+    -webkit-transition: color 0.3s ease;
+    -ms-transition: color 0.3s ease;
+    transition: color 0.3s ease;
+    margin-top: 5px;
+    font-size: 16px; }
+    .WithLabel__withLabel__JLIil > .WithLabel__label__OlFnO.WithLabel__visible__7koc5 {
+      color: #808080; }
+    .WithLabel__withLabel__JLIil > .WithLabel__label__OlFnO.WithLabel__invalid__EbsuS {
+      color: #ff3a30; }
+    .WithLabel__withLabel__JLIil > .WithLabel__label__OlFnO.WithLabel__hidden__3YZVU {
+      -webkit-touch-callout: none;
+      -webkit-user-select: none;
+      -khtml-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+      color: transparent; }
+
+.Editable__border__3li0b {
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  border: 1px solid #cdcdcd;
+  padding: 4px;
+  resize: vertical; }
+
+.Editable__hide__pJHUC {
+  display: none; }
+
+.Editable__prewrap__1KPka {
+  white-space: pre-wrap; }
+
+.BorderedButton__borderedButton__3nUe8 {
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  background-color: #fff;
+  -webkit-transition: background-color 0.3s ease;
+  -ms-transition: background-color 0.3s ease;
+  transition: background-color 0.3s ease;
+  border: 1px solid #808080;
+  padding: 5px 20px; }
+  .BorderedButton__borderedButton__3nUe8:hover {
+    background-color: #e6e6e6; }
+  .BorderedButton__borderedButton__3nUe8:hover {
+    -webkit-box-shadow: 0 3px 10px 0 #cecece;
+    -moz-box-shadow: 0 3px 10px 0 #cecece;
+    box-shadow: 0 3px 10px 0 #cecece; }
+
+.ContactDetail__detail__3_BdC {
+  padding: 50px 4em 1em;
+  position: relative; }
+  .ContactDetail__detail__3_BdC > .ContactDetail__addButton__BlSU8 {
+    position: absolute;
+    bottom: 1em;
+    left: 4em; }
+  .ContactDetail__detail__3_BdC > .ContactDetail__editButton__pmjkY {
+    position: absolute;
+    bottom: 1em;
+    right: 4em; }
+  .ContactDetail__detail__3_BdC > table {
+    width: 100%;
+    border-collapse: collapse; }
+    .ContactDetail__detail__3_BdC > table > tbody > tr:not(:last-child) {
+      border-bottom: 1px solid #eeeeee; }
+    .ContactDetail__detail__3_BdC > table > tbody > tr > td:first-child {
+      text-align: right;
+      color: #808080;
+      padding: 10px 15px;
+      vertical-align: top;
+      width: 25%; }
+
+.App__grid__2T7tt {
+  display: grid;
+  grid-template-columns: minmax(200px, 20%) minmax(400px, 80%);
+  overflow: auto;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0; }
+
